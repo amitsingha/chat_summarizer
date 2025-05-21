@@ -71,18 +71,6 @@ Summary:
 
 ---
 
-## 📦 Dependencies
-
-Listed in `requirements.txt`:
-
-```
-pip install -r requirements.txt
-```
-
----
-
----
-
 ## 🛡 License
 
 MIT License. Free to use and modify.

@@ -1,4 +1,3 @@
-
 import os
 import re
 from collections import Counter, defaultdict
@@ -44,7 +43,7 @@ def keywords_analysis(texts, method='simple', top_n=5):
 def generate_summary(message_counts, keywords):
     return f"""Summary:
 - This conversation had {message_counts['total']} exchanges.
-- Most common keywords between all(User & AI) messages: {', '.join(keywords)}"""
+- Most common keywords: {', '.join(keywords)}"""
 
 def summarize_file(file_path, method='simple'):
     user_msgs, ai_msgs, all_text = parse_chat_log(file_path) # 2.1 :: Chat Log Parsing

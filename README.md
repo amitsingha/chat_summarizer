@@ -60,18 +60,17 @@ python chat_log_summarizer.py --file chat.txt
 
 ---
 
-## 📝 Example Output
+## Example Output
 
 ```
 Summary:
 - The conversation had 8 exchanges.
-- The user asked mainly about Python and AI.
 - Most common keywords: python, use, data, ai, language.
 ```
 
 ---
 
-## 🛡 License
+## License
 
 MIT License. Free to use and modify.
 
